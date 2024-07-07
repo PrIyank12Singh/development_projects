@@ -1,0 +1,53 @@
+1.b).using<javascript>tag
+
+2.b).using p tag
+
+3.b).false
+
+4.b).false
+
+5.c).10000000000
+
+6.a).const names = people.map(person => person.name);
+console.log(names); 
+
+b).const updatedPeople = people.map(person => ({ ...person, salary: 50000 }));
+console.log(updatedPeople);
+
+c).const filteredPeople = people
+    .filter(person => person.age > 30)
+    .map(person => ({ name: person.name, age: person.age }));
+console.log(filteredPeople); 
+
+7.function main(cb1, cb2, x, y) {
+  const sum = cb1(x, y);
+  const difference = cb2(x, y);
+
+  console.log("Sum:", sum);
+  console.log("Difference:", difference);
+}
+
+function add(a, b) {
+  return a + b;
+}
+
+function subtract(a, b) {
+  return a - b;
+}
+
+const x = 11;
+const y = 4;
+main(add, subtract, x, y);
+
+8.c).map function
+
+10.c).[]
+
+11.b).display: none removes the element from the dom while visibility : hidden just hides the element
+
+12.a).4 10 18
+
+13.a).[1,2,3,4]
+
+
+
